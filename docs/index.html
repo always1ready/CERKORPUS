@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.19">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>«Журнал Московской Патриархии» как корпус текстов</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="index_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap-2411115c684c1c77941912feb38d3e56.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="index_files/libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="index_files/libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="index_files/libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Содержание</h2>
+   
+  <ul>
+  <li><a href="#введение" id="toc-введение" class="nav-link active" data-scroll-target="#введение"><span class="header-section-number">1</span> Введение</a></li>
+  <li><a href="#материал-и-обработка" id="toc-материал-и-обработка" class="nav-link" data-scroll-target="#материал-и-обработка"><span class="header-section-number">2</span> Материал и обработка</a></li>
+  <li><a href="#язык" id="toc-язык" class="nav-link" data-scroll-target="#язык"><span class="header-section-number">3</span> Язык</a>
+  <ul class="collapse">
+  <li><a href="#характерная-лексика-номеров" id="toc-характерная-лексика-номеров" class="nav-link" data-scroll-target="#характерная-лексика-номеров"><span class="header-section-number">3.1</span> Характерная лексика номеров</a></li>
+  <li><a href="#церковнославянский-слой" id="toc-церковнославянский-слой" class="nav-link" data-scroll-target="#церковнославянский-слой"><span class="header-section-number">3.2</span> Церковнославянский слой</a></li>
+  <li><a href="#речевой-этикет" id="toc-речевой-этикет" class="nav-link" data-scroll-target="#речевой-этикет"><span class="header-section-number">3.3</span> Речевой этикет</a></li>
+  <li><a href="#слово-мир" id="toc-слово-мир" class="nav-link" data-scroll-target="#слово-мир"><span class="header-section-number">3.4</span> Слово «мир»</a></li>
+  </ul></li>
+  <li><a href="#писание-и-предание" id="toc-писание-и-предание" class="nav-link" data-scroll-target="#писание-и-предание"><span class="header-section-number">4</span> Писание и Предание</a>
+  <ul class="collapse">
+  <li><a href="#ссылки-на-священное-писание" id="toc-ссылки-на-священное-писание" class="nav-link" data-scroll-target="#ссылки-на-священное-писание"><span class="header-section-number">4.1</span> Ссылки на Священное Писание</a></li>
+  <li><a href="#святые-отцы-и-подвижники-благочестия" id="toc-святые-отцы-и-подвижники-благочестия" class="nav-link" data-scroll-target="#святые-отцы-и-подвижники-благочестия"><span class="header-section-number">4.2</span> Святые отцы и подвижники благочестия</a></li>
+  <li><a href="#богослужебная-лексика" id="toc-богослужебная-лексика" class="nav-link" data-scroll-target="#богослужебная-лексика"><span class="header-section-number">4.3</span> Богослужебная лексика</a></li>
+  </ul></li>
+  <li><a href="#церковная-жизнь" id="toc-церковная-жизнь" class="nav-link" data-scroll-target="#церковная-жизнь"><span class="header-section-number">5</span> Церковная жизнь</a>
+  <ul class="collapse">
+  <li><a href="#устройство-номера" id="toc-устройство-номера" class="nav-link" data-scroll-target="#устройство-номера"><span class="header-section-number">5.1</span> Устройство номера</a></li>
+  <li><a href="#межцерковные-связи" id="toc-межцерковные-связи" class="nav-link" data-scroll-target="#межцерковные-связи"><span class="header-section-number">5.2</span> Межцерковные связи</a></li>
+  <li><a href="#круг-авторов" id="toc-круг-авторов" class="nav-link" data-scroll-target="#круг-авторов"><span class="header-section-number">5.3</span> Круг авторов</a></li>
+  </ul></li>
+  <li><a href="#корпус-как-справочный-инструмент" id="toc-корпус-как-справочный-инструмент" class="nav-link" data-scroll-target="#корпус-как-справочный-инструмент"><span class="header-section-number">6</span> Корпус как справочный инструмент</a></li>
+  <li><a href="#перспективы" id="toc-перспективы" class="nav-link" data-scroll-target="#перспективы"><span class="header-section-number">7</span> Перспективы</a></li>
+  <li><a href="#ограничения" id="toc-ограничения" class="nav-link" data-scroll-target="#ограничения"><span class="header-section-number">8</span> Ограничения</a></li>
+  <li><a href="#данные-и-код" id="toc-данные-и-код" class="nav-link" data-scroll-target="#данные-и-код"><span class="header-section-number">9</span> Данные и код</a></li>
+  <li><a href="#литература" id="toc-литература" class="nav-link" data-scroll-target="#литература">Литература</a></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">«Журнал Московской Патриархии» как корпус текстов</h1>
+<p class="subtitle lead">Опыт пробного исследования на материале четырёх номеров (1944, 1960, 1982, 2010)</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Дата публикации</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">8 октября 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="введение" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="введение"><span class="header-section-number">1</span> Введение</h2>
+<p>«Журнал Московской Патриархии» (ЖМП) издаётся с 1931 года, с перерывом в 1935–1943 годах. Согласно описанию на сайте журнала, в советский период он долгое время оставался единственным церковным печатным органом, относительно доступным для верующих. На его страницах публиковались постановления Священного Синода, послания и указы Патриарха, проповеди, хроника церковной жизни в епархиях и за рубежом, богословские и церковно-исторические исследования. Комплект журнала за девять десятилетий составляет непрерывную летопись церковной жизни.</p>
+<p>В научной литературе ЖМП рассматривается прежде всего как исторический источник. Изучены отдельные периоды и темы: номера военных лет <a href="#lit-4">[4]</a>, отражение в журнале взаимоотношений церковного и общественного самосознания в 1940–1980-е годы <a href="#lit-5">[5]</a>, история Троице-Сергиевой лавры по материалам журнала <a href="#lit-1">[1]</a>. Описаны типологические особенности ЖМП как официального общецерковного издания <a href="#lit-6">[6]</a>. Эти работы опираются на выборочное чтение номеров. Сплошного описания языка и жанрового состава журнала за весь период издания при предварительном поиске литературы обнаружить не удалось.</p>
+<p>Корпусный подход позволяет рассмотреть журнал целиком: подсчитать, сопоставить и проверить на всём материале наблюдения, которые при выборочном чтении остаются частными. Ниже показано, какие вопросы можно ставить к такому корпусу. Материалом служат четыре январских номера разных десятилетий. Все приведённые цифры иллюстрируют метод и не претендуют на выводы о периодах (см. раздел <a href="#ограничения">Ограничения</a>).</p>
+</section>
+<section id="материал-и-обработка" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="материал-и-обработка"><span class="header-section-number">2</span> Материал и обработка</h2>
+<p>Для пробы взяты первые номера за 1944, 1960, 1982 и 2010 годы. Три номера доступны в виде сканов, номер 2010 года — в виде электронной вёрстки с текстовым слоем.</p>
+<div id="tbl-material" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-material-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;1: Состав пробного корпуса. Доля ошибок измерена на эталонных фрагментах объёмом от 249 до 424 слов, расшифрованных вручную.
+</figcaption>
+<div aria-describedby="tbl-material-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 22%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Номер</th>
+<th style="text-align: left;">Источник</th>
+<th style="text-align: right;">Страниц с текстом</th>
+<th style="text-align: right;">Слов</th>
+<th style="text-align: left;">Ошибки распознавания</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1944, № 1</td>
+<td style="text-align: left;">скан 600 dpi</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">7 379</td>
+<td style="text-align: left;">1,2 % слов</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1960, № 1</td>
+<td style="text-align: left;">скан 150 dpi</td>
+<td style="text-align: right;">71</td>
+<td style="text-align: right;">29 629</td>
+<td style="text-align: left;">0,5 % слов</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">1982, № 1</td>
+<td style="text-align: left;">скан 150 dpi</td>
+<td style="text-align: right;">79</td>
+<td style="text-align: right;">42 272</td>
+<td style="text-align: left;">4,4 % слов (2,8 % после словарной правки)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2010, № 1</td>
+<td style="text-align: left;">электронная вёрстка</td>
+<td style="text-align: right;">77</td>
+<td style="text-align: right;">28 452</td>
+<td style="text-align: left;">распознавание не требуется</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Всего</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: right;"><strong>255</strong></td>
+<td style="text-align: right;"><strong>107 732</strong></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Обработка включала следующие шаги.</p>
+<ol type="1">
+<li><strong>Распознавание сканов</strong> программой Tesseract <a href="#lit-9">[9]</a> с моделью только для русского языка. Готовый текстовый слой номера 1944 года, созданный со смешанной русско-английской моделью, содержал около 10 % ошибочных слов и был заменён.</li>
+<li><strong>Очистка</strong>: удалены колонцифры, сигнатуры, подписи к иллюстрациям, колонтитулы, выходные данные и оглавления; восстановлены слова, разорванные переносом. В номере 2010 года роли текстовых блоков (основной текст, подпись, колонтитул, выносная цитата) определялись по шрифту.</li>
+<li><strong>Привязка к оглавлению</strong>: каждая страница соотнесена с печатной пагинацией и с рубрикой, заглавием и автором материала по оглавлению номера.</li>
+<li><strong>Морфологический анализ</strong> анализатором pymorphy3 <a href="#lit-8">[8]</a>: лемматизация и проверка слов по словарю современного русского языка.</li>
+</ol>
+<p>В номере 1982 года мелкий кегль при разрешении скана 150 dpi привёл к систематической путанице букв «и» и «н». Словарная правка снизила долю ошибок с 4,4 до 2,8 %, но имена собственные она не исправляет.</p>
+</section>
+<section id="язык" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="язык"><span class="header-section-number">3</span> Язык</h2>
+<section id="характерная-лексика-номеров" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="характерная-лексика-номеров"><span class="header-section-number">3.1</span> Характерная лексика номеров</h3>
+<p>Для каждого номера вычислены леммы, частота которых в нём значимо выше, чем в трёх остальных номерах (статистика G² <a href="#lit-7">[7]</a>). Имена собственные исключены; им посвящён раздел <a href="#корпус-как-справочный-инструмент">Корпус как справочный инструмент</a>.</p>
+<div id="fig-keywords" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-keywords-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="img/keywords.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Рисунок&nbsp;1: Леммы, наиболее характерные для каждого номера."><img src="img/keywords.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-keywords-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Рисунок&nbsp;1: Леммы, наиболее характерные для каждого номера.
+</figcaption>
+</figure>
+</div>
+<p>Характерная лексика отражает прежде всего состав конкретного номера. В номере 1944 года это лексика военного времени (<em>родина</em>, <em>победа</em>, <em>армия</em>, <em>подвиг</em>) и слово <em>обновленческий</em>, связанное с материалом о воссоединении обновленческого духовенства с Православной Церковью. В 1960 году выделяются <em>пастор</em>, <em>брат</em>, <em>христианин</em> (материалы о пребывании в СССР делегации евангелических пасторов) и лексика статьи о суде над апостолом Павлом (<em>иудей</em>, <em>римский</em>, <em>Фест</em>). В 1982 году — <em>Евхаристия</em> и <em>любовь</em> (статья митрополита Вениамина «Мысли о Литургии верных»), <em>собеседование</em> и <em>священство</em> (материалы богословского собеседования «Арнольдсхайн-IX»), <em>издательский</em> (освящение здания Издательского отдела). В 2010 году — <em>образование</em>, <em>гимназия</em>, <em>негосударственный</em> (статья о православных школах), <em>рассказ</em> и <em>странник</em> (исследование об «Откровенных рассказах странника»), а также <em>очень</em> и <em>сегодня</em>, свойственные устной речи интервью.</p>
+<p>Отсюда методическое следствие для полного корпуса: сравнивать периоды без учёта жанра нельзя. Один крупный материал меняет словарь номера сильнее, чем смена десятилетия. Сопоставление должно идти внутри жанров: хроника с хроникой, проповедь с проповедью.</p>
+</section>
+<section id="церковнославянский-слой" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="церковнославянский-слой"><span class="header-section-number">3.2</span> Церковнославянский слой</h3>
+<p>Тексты ЖМП набраны гражданской печатью, но содержат церковнославянские цитаты из Писания и богослужения, а также отдельные церковнославянские формы в авторской речи. Для их автоматического выявления использованы два правила:</p>
+<ul>
+<li>служебные и местоименные слова, отсутствующие в современном русском языке: <em>яко</em>, <em>иже</em>, <em>аще</em>, <em>паки</em>, <em>бо</em>, <em>мя</em>, <em>тя</em>, <em>ны</em> и др.;</li>
+<li>формы, которых нет в словаре современного русского языка, но которые после замены окончания на русское соответствие в словаре находятся: <em>милостию</em> → <em>милостью</em>, <em>приносити</em> → <em>приносить</em>, <em>святыя</em> → <em>святой</em>, <em>явися</em> → <em>явился</em>.</li>
+</ul>
+<p>Второе правило отсекает опечатки распознавания и имена собственные, поскольку у них русского соответствия нет. Церковные формы, вошедшие в современный книжный язык (<em>Божия</em>, <em>ныне</em>, <em>дабы</em>), не учитываются. Метод даёт заниженную, но надёжную оценку. Справочной базой для его уточнения может служить церковнославянский подкорпус Национального корпуса русского языка с частотным словарём <a href="#lit-3">[3]</a> и «Большой словарь церковнославянского языка Нового времени» <a href="#lit-2">[2]</a>.</p>
+<div id="fig-slavonic" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-slavonic-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="img/slavonic.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Рисунок&nbsp;2: Церковнославянские формы по рубрикам (рубрики объёмом от 500 слов)."><img src="img/slavonic.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-slavonic-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Рисунок&nbsp;2: Церковнославянские формы по рубрикам (рубрики объёмом от 500 слов).
+</figcaption>
+</figure>
+</div>
+<p>В целом по номерам на 10 тысяч слов приходится 8,1 (1944), 13,2 (1960), 30,0 (1982) и 4,9 (2010) церковнославянских форм. Распределение по рубрикам показывает, что эта величина зависит прежде всего от жанра. В номере 1982 года формы сосредоточены в рубриках «Из богослужебной практики» (399 на 10 тысяч слов) и «Богословский отдел» (90): обе содержат толкование богослужебных текстов с обширными цитатами. В хронике, официальных документах и материалах о межцерковных связях церковнославянских форм почти нет.</p>
+<p>Характерно, что один и тот же стих может приводиться в разных языковых формах. В номере 1960 года ангельская песнь Рождества (Лк. 2, 14) цитируется и по-церковнославянски («и на земли мир, в человецех благоволение»), и по Синодальному переводу («и на земле мир, в человеках благоволение»). Выбор между ними может зависеть от жанра, автора и адресата текста, и это отдельный вопрос для исследования на полном корпусе.</p>
+<p>Полученные цифры для 1982 года, по-видимому, занижены: знаки ударения в богослужебных текстах при распознавании превращаются в другие буквы («све́том» → «свётом»), и такие формы правилами не опознаются.</p>
+</section>
+<section id="речевой-этикет" class="level3" data-number="3.3">
+<h3 data-number="3.3" class="anchored" data-anchor-id="речевой-этикет"><span class="header-section-number">3.3</span> Речевой этикет</h3>
+<p>Церковная титулатура и формулы обращения составляют устойчивую часть языка журнала. В таблице приведена частота отдельных формул на 10 тысяч слов.</p>
+<div id="tbl-etiquette" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-etiquette-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;2: Частота формул титулования на 10 тысяч слов.
+</figcaption>
+<div aria-describedby="tbl-etiquette-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Формула</th>
+<th style="text-align: right;">1944</th>
+<th style="text-align: right;">1960</th>
+<th style="text-align: right;">1982</th>
+<th style="text-align: right;">2010</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><em>Святейший</em> (все формы)</td>
+<td style="text-align: right;">42,0</td>
+<td style="text-align: right;">12,8</td>
+<td style="text-align: right;">38,1</td>
+<td style="text-align: right;">31,6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><em>Блаженнейший</em></td>
+<td style="text-align: right;">4,1</td>
+<td style="text-align: right;">6,1</td>
+<td style="text-align: right;">17,5</td>
+<td style="text-align: right;">2,1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><em>Высокопреосвященнейший</em>, <em>Высокопреосвященство</em></td>
+<td style="text-align: right;">0,0</td>
+<td style="text-align: right;">12,2</td>
+<td style="text-align: right;">5,4</td>
+<td style="text-align: right;">0,7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><em>Преосвященный</em>, <em>Преосвященство</em></td>
+<td style="text-align: right;">0,0</td>
+<td style="text-align: right;">6,1</td>
+<td style="text-align: right;">2,1</td>
+<td style="text-align: right;">3,2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">«Патриарх Московский и всея Руси»</td>
+<td style="text-align: right;">2,7</td>
+<td style="text-align: right;">3,0</td>
+<td style="text-align: right;">6,4</td>
+<td style="text-align: right;">9,8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">«Ваше Святейшество», «Ваше Блаженство»</td>
+<td style="text-align: right;">6,8</td>
+<td style="text-align: right;">1,4</td>
+<td style="text-align: right;">3,1</td>
+<td style="text-align: right;">4,2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Частота титулов следует за содержанием номера: высокая частота формы <em>Блаженнейший</em> в 1982 году объясняется визитом Патриарха Иерусалимского Диодора, высокая частота титулов архиереев в 1960 году — преобладанием официальной переписки. Полный патриарший титул в 2010 году встречается в три с лишним раза чаще, чем в 1944 и 1960 годах. Проверить, устойчива ли эта разница, можно только на полном корпусе.</p>
+</section>
+<section id="слово-мир" class="level3" data-number="3.4">
+<h3 data-number="3.4" class="anchored" data-anchor-id="слово-мир"><span class="header-section-number">3.4</span> Слово «мир»</h3>
+<p>Слово <em>мир</em> употребляется в журнале в двух значениях: «покой, согласие» и «вселенная, человечество». Распределение значений по номерам различается.</p>
+<div id="tbl-mir" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-mir-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;3: Слово «мир» и его ближайшее окружение (±2 слова).
+</figcaption>
+<div aria-describedby="tbl-mir-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 27%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Номер</th>
+<th style="text-align: right;">Употреблений</th>
+<th style="text-align: left;">Наиболее частые соседние слова</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1944</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1960</td>
+<td style="text-align: right;">186</td>
+<td style="text-align: left;"><em>земля</em> (19), <em>борьба</em> (12), <em>Христос</em> (8), <em>любовь</em> (8)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">1982</td>
+<td style="text-align: right;">204</td>
+<td style="text-align: left;"><em>сохранение</em> (11), <em>защита</em> (10), <em>служение</em> (9), <em>дело</em> (9)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2010</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: left;">устойчивых сочетаний не выделяется</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>В номере 1960 года наиболее частое сочетание связано с ангельской песнью Рождества («и на земли мир»), которую цитируют рождественское послание и рождественские обращения. В 1982 году преобладают сочетания <em>защита мира</em>, <em>сохранение мира</em>, <em>дело мира</em>, относящиеся к миротворческой деятельности, как она именуется в самом журнале. В 2010 году слово употребляется главным образом во втором значении: <em>современный мир</em>, <em>весь мир</em>, <em>приходящий в мир</em>. Автоматическое разграничение значений многозначных слов на полном корпусе требует ручной разметки обучающей выборки.</p>
+</section>
+</section>
+<section id="писание-и-предание" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="писание-и-предание"><span class="header-section-number">4</span> Писание и Предание</h2>
+<section id="ссылки-на-священное-писание" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="ссылки-на-священное-писание"><span class="header-section-number">4.1</span> Ссылки на Священное Писание</h3>
+<p>Ссылки на Писание оформлены в журнале в скобках («Мф. 24, 6») и поддаются автоматическому извлечению. Обнаружено 1, 77, 103 и 43 ссылки в номерах 1944, 1960, 1982 и 2010 годов соответственно.</p>
+<div id="fig-bible" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-bible-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="img/bible.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Рисунок&nbsp;3: Ссылки на книги Священного Писания на 10 тысяч слов."><img src="img/bible.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bible-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Рисунок&nbsp;3: Ссылки на книги Священного Писания на 10 тысяч слов.
+</figcaption>
+</figure>
+</div>
+<p>Состав ссылок, как и словарь, зависит от материалов номера. В 1960 году чаще всего цитируются Деяния апостолов (24 ссылки, в основном в статье о суде над апостолом Павлом) и Евангелие от Луки (14, рождественские тексты). В 1982 году лидирует Евангелие от Матфея (20), в 2010 году — от Иоанна (8).</p>
+<p>Меняется и система сокращений. В 1944 году название книги приводится полностью («Иоанна, 10, 4»). В 1960 году используются сокращения «Иоан.», «Ефес.», «Колос.», «Псал.», в 1982 и 2010 годах — «Ин.», «Еф.», «Кол.», «Пс.». Для полного корпуса потребуется словарь вариантов сокращений по десятилетиям.</p>
+</section>
+<section id="святые-отцы-и-подвижники-благочестия" class="level3" data-number="4.2">
+<h3 data-number="4.2" class="anchored" data-anchor-id="святые-отцы-и-подвижники-благочестия"><span class="header-section-number">4.2</span> Святые отцы и подвижники благочестия</h3>
+<p>Упоминания святых отцов и русских подвижников извлекались по именам и устойчивым эпитетам («Иоанн Златоуст», «Василий Великий», «святитель Филарет»).</p>
+<div id="tbl-fathers" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-fathers-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;4: Число упоминаний святых отцов и подвижников.
+</figcaption>
+<div aria-describedby="tbl-fathers-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Имя</th>
+<th style="text-align: right;">1944</th>
+<th style="text-align: right;">1960</th>
+<th style="text-align: right;">1982</th>
+<th style="text-align: right;">2010</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">свт. Иоанн Златоуст</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">свт. Василий Великий</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">—</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">свт. Афанасий Великий</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">прп. Иоанн Дамаскин</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">—</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">свт. Григорий Богослов</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">сщмч. Ириней Лионский</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">—</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">сщмч. Игнатий Богоносец</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">свт. Григорий Палама</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">прп. Сергий Радонежский</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">свт. Филарет Московский</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">свт. Феофан Затворник</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">свт. Игнатий (Брянчанинов)</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">прп. Серафим Саровский</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">прп. Иосиф Волоцкий</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">прп. Паисий Величковский</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">свт. Гермоген, Патриарх Московский</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Счёт по именам не различает цитату, ссылку на творение и упоминание в составе названия: большинство упоминаний преподобного Сергия Радонежского в 1982 году относится к названию Лавры. Разметка святоотеческих цитат с указанием источника требует участия специалиста по патрологии и составляет одну из задач, в которых сотрудничество с церковной наукой особенно необходимо.</p>
+</section>
+<section id="богослужебная-лексика" class="level3" data-number="4.3">
+<h3 data-number="4.3" class="anchored" data-anchor-id="богослужебная-лексика"><span class="header-section-number">4.3</span> Богослужебная лексика</h3>
+<div id="fig-liturgy" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-liturgy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="img/liturgy.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Рисунок&nbsp;4: Богослужебная лексика на 10 тысяч слов."><img src="img/liturgy.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-liturgy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Рисунок&nbsp;4: Богослужебная лексика на 10 тысяч слов.
+</figcaption>
+</figure>
+</div>
+<p>Богослужебная терминология присутствует во всех номерах. Высокие значения 1982 года объясняются статьёй митрополита Вениамина «Мысли о Литургии верных» и материалом о входных молитвах перед литургией Преждеосвященных Даров. Лексика, связанная с архиерейскими хиротониями, держится на уровне 7–8 употреблений на 10 тысяч слов в трёх номерах из четырёх: сообщения о наречениях и хиротониях входят в постоянный состав журнала.</p>
+</section>
+</section>
+<section id="церковная-жизнь" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="церковная-жизнь"><span class="header-section-number">5</span> Церковная жизнь</h2>
+<section id="устройство-номера" class="level3" data-number="5.1">
+<h3 data-number="5.1" class="anchored" data-anchor-id="устройство-номера"><span class="header-section-number">5.1</span> Устройство номера</h3>
+<p>По оглавлениям подсчитано, какую долю страниц занимает каждая рубрика.</p>
+<div id="fig-structure" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-structure-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="img/structure.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Рисунок&nbsp;5: Доля страниц под рубриками оглавления. * — официальные документы без заголовка рубрики."><img src="img/structure.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-structure-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Рисунок&nbsp;5: Доля страниц под рубриками оглавления. * — официальные документы без заголовка рубрики.
+</figcaption>
+</figure>
+</div>
+<p>Рубрика «Церковная жизнь» присутствует во всех четырёх номерах. Официальные документы занимают от 9 % (1982) до 30 % (2010, «Официальная хроника») страниц. В номере 1982 года значительную часть объёма составляют рубрики «Экуменические контакты» (18 %) и «Богословский отдел» (15 %). В номере 2010 года появляются рубрики «Церковь и общество», «Духовное наследие», «Церковное искусство» и «Чтение». Сводная история рубрик за весь период позволит установить, когда возникали и исчезали разделы журнала, и даст основу для жанровой классификации материалов.</p>
+</section>
+<section id="межцерковные-связи" class="level3" data-number="5.2">
+<h3 data-number="5.2" class="anchored" data-anchor-id="межцерковные-связи"><span class="header-section-number">5.2</span> Межцерковные связи</h3>
+<p>Подсчитаны упоминания Поместных Православных Церквей и инославных христианских общин (названия Церквей, кафедр и предстоятелей).</p>
+<div id="fig-churches" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-churches-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="img/churches.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Рисунок&nbsp;6: Упоминания Поместных Церквей и инославных общин. Площадь круга пропорциональна числу упоминаний."><img src="img/churches.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-churches-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Рисунок&nbsp;6: Упоминания Поместных Церквей и инославных общин. Площадь круга пропорциональна числу упоминаний.
+</figcaption>
+</figure>
+</div>
+<p>Распределение упоминаний отражает события, о которых сообщает номер: визит делегации евангелических пасторов из ГДР (1960), богословские собеседования «Арнольдсхайн» с Евангелической Церковью ФРГ и визит Патриарха Иерусалимского Диодора (1982), интервью с предстоятелем Православной Церкви в Америке (2010). На полном корпусе такие данные позволят описать географию межцерковных связей Русской Православной Церкви по годам.</p>
+</section>
+<section id="круг-авторов" class="level3" data-number="5.3">
+<h3 data-number="5.3" class="anchored" data-anchor-id="круг-авторов"><span class="header-section-number">5.3</span> Круг авторов</h3>
+<p>Материалы, перечисленные в оглавлениях, распределены по типу подписи.</p>
+<div id="fig-authors" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-authors-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="img/authors.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Рисунок&nbsp;7: Материалы оглавления по типу подписи автора."><img src="img/authors.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-authors-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Рисунок&nbsp;7: Материалы оглавления по типу подписи автора.
+</figcaption>
+</figure>
+</div>
+<p>В номерах 1944–1982 годов большинство материалов не подписано: это официальные документы, хроника, сообщения. В номере 2010 года не подписаны лишь два материала из пятнадцати; девять подписаны без указания сана. Группа «сан не указан» объединяет мирян и авторов, подписавшихся инициалами, и для полного корпуса потребует уточнения по справочным изданиям.</p>
+</section>
+</section>
+<section id="корпус-как-справочный-инструмент" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="корпус-как-справочный-инструмент"><span class="header-section-number">6</span> Корпус как справочный инструмент</h2>
+<p>Помимо исследовательских задач, сплошной корпус журнала может служить основой для справочных указателей: имён, мест, событий. Ниже приведены два примера автоматического извлечения.</p>
+<p><strong>Архиереи, упоминаемые в номере.</strong> Извлекались сочетания сана (Патриарх, митрополит, архиепископ, епископ) с именем; титулы кафедр пропускались.</p>
+<div id="tbl-hierarchs" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-hierarchs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;5: Упоминания архиереев.
+</figcaption>
+<div aria-describedby="tbl-hierarchs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 27%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Номер</th>
+<th style="text-align: right;">Разных имён</th>
+<th style="text-align: left;">Наиболее часто упоминаемые</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1944</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: left;">Патриарх Сергий (22), митрополит Николай (8), митрополит Алексий (7)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1960</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: left;">митрополит Николай (41), Патриарх Алексий (28), митрополит Питирим (9)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">1982</td>
+<td style="text-align: right;">83</td>
+<td style="text-align: left;">Патриарх Пимен (90), митрополит Николай (58), митрополит Филарет (29)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2010</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: left;">Патриарх Кирилл (55), Патриарх Алексий (15), митрополит Серапион (8)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Одно имя может принадлежать разным лицам: «Патриарх Алексий» в номере 1960 года — Патриарх Алексий I, в номере 2010 года — Патриарх Алексий II. В номере 1982 года почти все упоминания митрополита Николая относятся к митрополиту Крутицкому и Коломенскому Николаю (Ярушевичу), памяти которого посвящена статья. Для указателя потребуется сопоставление упоминаний с авторитетным списком архиереев.</p>
+<p><strong>Наречения и хиротонии.</strong> Из сообщений о наречениях и хиротониях автоматически извлечены имя ставленника и кафедра.</p>
+<div id="tbl-consecrations" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-consecrations-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Таблица&nbsp;6: Наречения и хиротонии, извлечённые из текста.
+</figcaption>
+<div aria-describedby="tbl-consecrations-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Номер</th>
+<th style="text-align: right;">Страница</th>
+<th style="text-align: left;">Ставленник</th>
+<th style="text-align: left;">Кафедра</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1982</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: left;">архимандрит Лонгин</td>
+<td style="text-align: left;">Дюссельдорфская</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2010</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">архимандрит Кирилл (Покровский)</td>
+<td style="text-align: left;">Павлово-Посадская</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2010</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">архимандрит Климент (Родайкин)</td>
+<td style="text-align: left;">Рузаевская</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>На полном корпусе такие записи складываются в хронологию архиерейских хиротоний и назначений. Аналогичным образом могут быть собраны некрологи, сведения о награждениях, освящениях храмов, юбилеях. Подобные указатели полезны для церковно-исторических исследований и для работы библиотек духовных школ.</p>
+</section>
+<section id="перспективы" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="перспективы"><span class="header-section-number">7</span> Перспективы</h2>
+<p>Сплошной корпус ЖМП позволит поставить следующие исследовательские вопросы.</p>
+<ol type="1">
+<li><strong>Жанровый состав.</strong> Как менялось соотношение официальных документов, хроники, проповеди, богословской статьи, интервью и как менялся язык каждого жанра?</li>
+<li><strong>Церковнославянский язык в текстах журнала.</strong> Где и в каком объёме он присутствует: в цитатах из Писания и богослужения, в формулах посланий, в отдельных формах авторской речи? Как это зависит от жанра, автора и десятилетия?</li>
+<li><strong>Речевой этикет.</strong> Как устроены и как менялись титулатура, обращения, начальные и заключительные формулы посланий?</li>
+<li><strong>Писание и святоотеческое наследие.</strong> Какие книги Писания и какие творения отцов цитируются, в каких жанрах, в каком переводе?</li>
+</ol>
+<p>Для этого необходимо:</p>
+<ul>
+<li>распознать все номера с единым контролем качества и выборочной ручной проверкой по десятилетиям;</li>
+<li>разделить номера на отдельные материалы с метаданными (рубрика, автор, заглавие, страницы);</li>
+<li>составить таблицу соответствия рубрик и жанров;</li>
+<li>разметить цитаты из Писания, богослужебных текстов и святоотеческих творений;</li>
+<li>составить справочник лиц для указателей.</li>
+</ul>
+<p>Часть этих задач (разметка святоотеческих цитат, атрибуция авторов, жанровая классификация церковных текстов) требует знаний в области патрологии, литургики и церковной истории. Междисциплинарное руководство работой позволило бы соединить корпусную методику с этими знаниями.</p>
+</section>
+<section id="ограничения" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="ограничения"><span class="header-section-number">8</span> Ограничения</h2>
+<ul>
+<li>Четыре номера, по одному на каждую из рассматриваемых эпох. Все четыре — январские, с рождественскими материалами. Различия между ними отражают прежде всего состав конкретных номеров.</li>
+<li>Номер 1944 года в четыре раза меньше остальных по объёму, поэтому частоты для него наименее устойчивы.</li>
+<li>Качество распознавания различается по номерам; в 1982 году ошибки затрагивают около 3 % слов и, вероятно, сильнее всего — тексты с ударениями.</li>
+<li>Страницы приписаны к материалам оглавления целиком; материалы, начинающиеся в середине страницы, учтены неточно.</li>
+<li>Все извлечения выполнены по правилам без ручной проверки каждого случая.</li>
+</ul>
+</section>
+<section id="данные-и-код" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="данные-и-код"><span class="header-section-number">9</span> Данные и код</h2>
+<p>Тексты журнала охраняются авторским правом и в репозитории не публикуются. В открытом доступе находятся программный код обработки, оглавления номеров в табличной форме, сводные таблицы, по которым построены графики и таблицы этой страницы, и инструкция по воспроизведению расчётов при наличии исходных файлов.</p>
+</section>
+<section id="литература" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="литература">Литература</h2>
+<ol type="1">
+<li><span id="lit-1"></span>Александр (Серпенинов), иеродиакон. «Журнал Московской Патриархии» как источник по изучению истории Троице-Сергиевой лавры (к 75-летию открытия Троице-Сергиевой лавры) // Богословский вестник. 2021. № 4 (43). С. 180–191. DOI: <a href="https://doi.org/10.31802/GB.2021.43.4.011">10.31802/GB.2021.43.4.011</a>.</li>
+<li><span id="lit-2"></span>Большой словарь церковнославянского языка Нового времени. Т. 2 / под ред. А. Г. Кравецкого, А. А. Плетнёвой. М., 2019. 544 с.</li>
+<li><span id="lit-3"></span>Добрушина Е. Р., Кравецкий А. Г., Поляков А. Е. Корпус и частотный грамматический корпусный словарь церковнославянского языка в составе Национального корпуса русского языка [Электронный ресурс]. URL: <a href="https://ruscorpora.ru/media/publications/69d173e0fe04fa0096c41921bb15df2c.pdf" class="uri">https://ruscorpora.ru/media/publications/69d173e0fe04fa0096c41921bb15df2c.pdf</a>.</li>
+<li><span id="lit-4"></span>Копылов А. А. Великая Отечественная война и Русская православная церковь на страницах «Журнала Московской патриархии» в 1943–1945 годах // Вопросы теологии. 2021. Т. 3, № 1. С. 117–123. DOI: <a href="https://doi.org/10.21638/spbu28.2021.108">10.21638/spbu28.2021.108</a>.</li>
+<li><span id="lit-5"></span>Лизгунов Павел, иерей. «Журнал Московской Патриархии» как инструмент «примирения» православного и советского самосознания у верующих СССР в 1940-е – 1980-е гг. // Церковный историк. 2021. № 2 (6). С. 147–157. DOI: <a href="https://doi.org/10.31802/CH.2021.6.2.008">10.31802/CH.2021.6.2.008</a>.</li>
+<li><span id="lit-6"></span>Родченко В. А. Типологические особенности «Журнала Московской Патриархии» как официального общецерковного издания // Филологические науки. Вопросы теории и практики. 2011. № 2 (9). С. 142–148.</li>
+<li><span id="lit-7"></span>Dunning T. Accurate Methods for the Statistics of Surprise and Coincidence // Computational Linguistics. 1993. Vol. 19, № 1. P. 61–74.</li>
+<li><span id="lit-8"></span>Korobov M. Morphological Analyzer and Generator for Russian and Ukrainian Languages // Analysis of Images, Social Networks and Texts. Springer International Publishing, 2015. (Communications in Computer and Information Science; vol.&nbsp;542). P. 320–332.</li>
+<li><span id="lit-9"></span>Smith R. An Overview of the Tesseract OCR Engine // Proceedings of the Ninth International Conference on Document Analysis and Recognition (ICDAR 2007). IEEE Computer Society, 2007. P. 629–633.</li>
+</ol>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Скопировано");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Скопировано");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+<script src="index_files/libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

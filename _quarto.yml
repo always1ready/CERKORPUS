@@ -1,0 +1,23 @@
+project:
+  type: default
+  output-dir: docs
+
+lang: ru
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-title: "Содержание"
+    toc-location: left
+    toc-depth: 3
+    number-sections: true
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    crossref:
+      fig-title: "Рисунок"
+      tbl-title: "Таблица"
+    lightbox: true
+    smooth-scroll: true
+    link-external-newwindow: true

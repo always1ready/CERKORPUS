@@ -1,0 +1,59 @@
+/* Спокойная академическая вёрстка: шрифт с засечками для текста, узкая колонка. */
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=PT+Sans:wght@400;700&display=swap");
+
+body {
+  font-family: "PT Serif", Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #1d1d1b;
+}
+
+h1, h2, h3, .title, .subtitle, #toc-title, nav#TOC, .quarto-title-meta,
+table, figcaption, .figure-caption, caption {
+  font-family: "PT Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.subtitle {
+  color: #52514e;
+  font-size: 1.15rem;
+}
+
+h2 {
+  margin-top: 2.5rem;
+  border-bottom: 1px solid #e6e5e1;
+  padding-bottom: 0.3rem;
+}
+
+table {
+  font-size: 0.9rem;
+}
+
+figcaption, .figure-caption, caption {
+  color: #52514e;
+  font-size: 0.88rem;
+}
+
+a {
+  color: #1c5cab;
+}
+
+/* Широкие таблицы на узком экране прокручиваются внутри своего блока, а не страницы. */
+div[id^="tbl-"], .table-responsive {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  body { font-size: 1rem; }
+  table { font-size: 0.8rem; }
+  .title { font-size: 1.6rem; }
+}
+
+table td, table th {
+  vertical-align: top;
+}
