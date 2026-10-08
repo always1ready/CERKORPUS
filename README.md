@@ -15,36 +15,3 @@
 | `meta/` | оглавления четырёх номеров: страница, рубрика, автор, заглавие |
 | `scripts/` | код обработки: от PDF до сводных таблиц и графиков |
 | `docs/` | собранная страница для GitHub Pages |
-
-Тексты журнала охраняются авторским правом и в репозиторий не входят.
-
-## Сборка страницы
-
-```bash
-pip install quarto-cli        # или установщик с quarto.org
-quarto render index.qmd       # результат в docs/
-```
-
-## Публикация на GitHub Pages
-
-1. Загрузить содержимое этой папки в репозиторий на GitHub.
-2. В настройках репозитория: Settings → Pages → Build and deployment →
-   Source: Deploy from a branch; Branch: `main`, папка `/docs`.
-3. Через минуту-две страница будет доступна по адресу
-   `https://<имя-пользователя>.github.io/<имя-репозитория>/`.
-
-## Воспроизведение расчётов
-
-Нужны исходные PDF номеров, Tesseract с моделью `rus.traineddata`
-из tessdata_best и пакеты `pymupdf`, `pymorphy3`, `pymorphy3-dicts-ru`, `matplotlib`.
-Скрипты рассчитаны на запуск из папки `scripts/` с данными рядом (пути — в их docstring).
-
-| Шаг | Скрипт |
-|---|---|
-| Опись файлов | `inventory.py` |
-| Распознавание сканов | `reocr.py` |
-| Текст электронной вёрстки | `extract_digital.py` |
-| Очистка и привязка к оглавлению | `prepare.py` |
-| Расчёты | `analysis.py` (поиск церковнославянских форм — `slavonic.py`) |
-| Графики | `charts.py` |
-| Оценка качества распознавания | `quality.py`, `evaluate.py` |
